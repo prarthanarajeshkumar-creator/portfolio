@@ -169,6 +169,7 @@ footer {
  
 /* --- MOBILE RESPONSIVE --- */
 @media (max-width: 768px) {
+ 
     .nav-links {
         display: none;
         flex-direction: column;
@@ -181,7 +182,7 @@ footer {
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         border-radius: 0 0 10px 10px;
     }
-
+ 
     .nav-links.active {
         display: flex;
     }
