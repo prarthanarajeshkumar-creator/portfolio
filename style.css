@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #eef2ff, #f8fafc);
+    margin: 0;
+    padding: 20px;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+nav{
+    background:white;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav a{
+    color:#1e3a8a;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#2563eb;
+}
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #1f3c88, #4f46e5);
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: 0 auto 25px auto;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #1f3c88;
+    border-bottom: 3px solid #4f46e5;
+    padding-bottom: 5px;
+}
+
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+p {
+    line-height: 1.6;
+}
+.project-card{
+    background:#f8fafc;
+    border-left:5px solid #2563eb;
+    padding:20px;
+    margin-top:15px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card h3{
+    color:#1e3a8a;
+    margin-bottom:10px;
+}
+.profile-pic{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    margin-top:40px;
+    margin-bottom:15px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #111;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 15px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}

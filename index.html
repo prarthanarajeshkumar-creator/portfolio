@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <title>My Portfolio</title>
+</head>
+<body>
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact me">Contact Me</a>
+    <div class="hamburger" onclick="toggleMenu()">
+    ☰
+</div>
+</nav>
+    <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+    <h1>Prarthana R</h1>
+    <p>Aspiring Electronics Engineer | Web Development Enthusiast | Continuous Learner</p>
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am an Electronics and Communication Engineering student passionate about technology, digital systems, web development, and continuous learning.
+    </p>
+</section>
+<section id="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech in Electronics and Communication Engineering</strong></p>
+    <p>College of Engineering, Perumon</p>
+    <p>Expected Graduation: 2028</p>
+</section>
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>C Programming</li>
+        <li>Python</li>
+        <li>HTML & CSS</li>
+        <li>Digital Electronics</li>
+        <li>Logic Circuit Design</li>
+    </ul>
+</section>
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>LED Chaser Using Ring and Johnson Counter</h3>
+        <p>
+            Designed and implemented an LED chaser circuit using Ring Counter and Johnson Counter concepts.
+            The project demonstrated sequential logic design, counter operations, and LED pattern generation
+            for digital electronics applications.
+        </p>
+        <p><strong>Technologies:</strong> Digital Electronics, Shift Registers, Ring Counter, Johnson Counter</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Fire and Smoke Detection System</h3>
+        <p>
+            Developed a fire and smoke detection system using the MQ-2 gas and smoke sensor to monitor
+            hazardous conditions. When smoke or combustible gases exceed the threshold level, the system
+            triggers an alert and automatically sends warning notifications through mobile calls and SMS
+            messages, enabling rapid response and improved safety.
+        </p>
+        <p><strong>Technologies:</strong> Sensors, Embedded Systems, Electronics</p>
+    </div>
+
+</section>
+<section id="certificates">
+    <h2>Certificates</h2>
+
+<ul>
+    <li>
+        NPTEL - Soft Skill Development
+    </li>
+    <li>Python Programming Basics</li>
+</ul>
+</section>
+<section id="contact me">
+    <h2>Contact Me</h2>
+
+<p>Email: prarthana.rajeshkumar@gmail.com</p>
+<p>LinkedIn: linkedin.com/in/prarthanar06</p>
+</section>
+
+
+<footer>
+    <p>© 2026 Prarthana R | Portfolio Website</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
+</script>
+</body>
+
+</html>
