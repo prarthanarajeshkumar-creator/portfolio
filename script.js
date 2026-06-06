@@ -1,3 +1,4 @@
-window.onload = function() {
-    console.log("Portfolio Website Loaded Successfully");
-};
+// Hamburger menu toggle
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("active");
+}
