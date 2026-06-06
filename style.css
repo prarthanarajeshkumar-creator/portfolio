@@ -51,7 +51,7 @@ nav a:hover {
 }
  
 .hamburger {
-    display: none;
+    display: block;
     font-size: 26px;
     cursor: pointer;
     color: #1e3a8a;
@@ -181,7 +181,10 @@ footer {
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         border-radius: 0 0 10px 10px;
     }
- 
+
+    .nav-links {
+    display: none;
+    }
     .nav-links.active {
         display: flex;
     }
